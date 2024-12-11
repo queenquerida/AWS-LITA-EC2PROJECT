@@ -8,7 +8,14 @@ below is the image details
 ![security group rules details](/Security_detail.png)
 ### Keypair was created
 i created keypair below is the image
-![keypair details](/key_pair)
+![keypair details](/key_pair.png)
+#### image of keypair successfully created
+Keypair successfully created
+![successfully created keypair](/keyp.png)
+### Lauching of EC2 instance
+lauched EC2 instance details below with image below
+![EC2 Lauched](/ec2.png)
+
 
 
 
