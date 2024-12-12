@@ -50,6 +50,6 @@ connected to the instance using the SSH client by coping the command"chmod 400"
 I finally deploy the apache web server by installing it using code "sudo yum install httpd -y"
 image below
 ![Apache Deployed](/apache_connected.png)
-### Test Page
+### Lastly the Test Page
 I copied the public Ip address on my EC2 instance and pasted it to the browser and i got the image below of my test Page
 ![Test page](/test_page.png)
