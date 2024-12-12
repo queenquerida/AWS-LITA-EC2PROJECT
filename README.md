@@ -6,10 +6,12 @@ Documentation process of launching an EC2 instance to host Apache web server for
 created security group and set inbounds rules to allow HTTP and SSH traffic
 image details below
 ![security group](/security_group.png)
+#### Inbound Rules
 inbound rules for the security Group created
 ![setting inbounds rules image](/inbound_rules.png)
+#### Outbound Rules
 the outbound rule was left at default to allow "all traffic"
-![Outbound rules](/outbound_rule)
+![Outbound rules](/outbound_rule.png)
 #### Image of successful Security Group created with details shown
 ![security group rules details](/Security_detail.png)
 ### Lauching of EC2 instance
