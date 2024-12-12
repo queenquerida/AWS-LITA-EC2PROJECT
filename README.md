@@ -8,6 +8,8 @@ image details below
 ![security group](/security_group.png)
 inbound rules for the security Group created
 ![setting inbounds rules image](/inbound_rules.png)
+the outbound rule was left at default to allow "all traffic"
+![Outbound rules](/outbound_rule)
 #### Image of successful Security Group created with details shown
 ![security group rules details](/Security_detail.png)
 ### Lauching of EC2 instance
