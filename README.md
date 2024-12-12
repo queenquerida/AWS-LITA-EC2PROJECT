@@ -1,7 +1,7 @@
 #AWS_LITA_PROJECT
 
 Documentation process of launching an EC2 instance to host Apache web server for smartshop.
-#### First step I did was create security group.
+### First step I did was create security group.
 ### Security Group Creation
 created security group and set inbounds rules to allow HTTP and SSH traffic
 image details below
@@ -22,7 +22,7 @@ I Selected Amazon linux 2 as the OS and a t2.micro instance
 ### Keypair was created
 i created keypair and download it to my document
 ![image of successful keypair](/keyp.png)
-####keypair was added to my EC2 instance
+#### Keypair was added to my EC2 instance
 ![keypair added](/key_pair.png)
 ### Added VPC under networks settings
 I selected the already created vpc for this project image below.
@@ -34,7 +34,7 @@ I selected the already created vpc for this project image below.
 ### Added security group and set auto-assign the Public IP.
 I added the security that i earlier created to the EC2 instance, also set the auto-assign public IP to enabled
 ![Security group to instance](/SG_A.png)
-###Configure storage
+### Configure storage
 I left the Configure storage at 8gb as advised
 ![Configure storage at 8gb](/config_storage.png)
 ### Finally Lauched my EC2 instance
@@ -49,7 +49,7 @@ connected to the instance using the SSH client by coping the command"chmod 400"
 ### Deploying of the Apache web server 
 I finally deploy the apache web server by installing it using code "sudo yum install httpd -y"
 image below
-![Apache Deployed](/apache_connected)
-###Test Page
-i copied the public Ip address on my EC2 instance and pasted it to the browser and i got the image below of my test Page
+![Apache Deployed](/apache_connected.png)
+### Test Page
+I copied the public Ip address on my EC2 instance and pasted it to the browser and i got the image below of my test Page
 ![Test page](/test_page.png)
