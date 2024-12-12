@@ -14,7 +14,7 @@ the outbound rule was left at default to allow "all traffic"
 ![Outbound rules](/outbound_rule.png)
 #### Image of successful Security Group created with details shown
 ![security group rules details](/Security_detail.png)
-### Lauching of EC2 instance
+### Lauching of my EC2 instance
 Launching of my EC2 instance details that would host the Apache web server
 ![EC2 Lauched](/ec2.png)
 I Selected Amazon linux 2 as the OS and a t2.micro instance
@@ -22,7 +22,7 @@ I Selected Amazon linux 2 as the OS and a t2.micro instance
 ### Keypair was created
 i created keypair and download it to my document
 ![image of successful keypair](/keyp.png)
-####keypair was added to the EC2 instance
+####keypair was added to my EC2 instance
 ![keypair added](/key_pair.png)
 ### Added VPC under networks settings
 I selected the already created vpc for this project image below.
