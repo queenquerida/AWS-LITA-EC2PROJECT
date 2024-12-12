@@ -4,6 +4,8 @@ Documentation of the process of launching an EC2 instance to host Apache web ser
 created security group and set inbounds rules to allow HTTP and SSH traffic
 below is the image details
 ![security group](/security_group.png)
+inbound rules for the security Group
+![setting inbounds rules image](/inbound_rules.png)
 #### Image of successful Security Group created with details shown
 ![security group rules details](/Security_detail.png)
 ### Keypair was created
